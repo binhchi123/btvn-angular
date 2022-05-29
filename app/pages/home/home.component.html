@@ -1,0 +1,9 @@
+<p class="text-center mt-3">Sản phẩm nổi bật</p>
+<div class="row mt-3">
+    <div class="col-lg-4 card" style="width: 18rem;" *ngFor="let item of products">
+        <img src="{{item.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">{{item.name}}</p>
+        </div>
+    </div>
+</div>
